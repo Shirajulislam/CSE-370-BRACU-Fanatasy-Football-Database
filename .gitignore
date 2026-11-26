@@ -1,0 +1,29 @@
+# Local secrets and machine-specific settings
+.env
+.env.*
+!.env.example
+config.local.php
+*.log
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.metadata/
+
+# Generated build output and IDE-private files
+**/nbproject/private/
+**/build/
+**/dist/
+**/*.class
+__pycache__/
+.Rhistory
+.RData
+
+# Known empty local placeholder from the recovered archive
+/database/fantasy-football-database0.db
+
+# Do not globally ignore *.db, *.csv, or *.sql: some are important project
+# inputs. Decide deliberately whether large data belongs in Git, Git LFS,
+# release assets, or a separately documented data archive.
